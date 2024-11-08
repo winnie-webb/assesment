@@ -58,23 +58,29 @@ Launching with a perfect trio of proprietary, results-driven beauty products, NX
         <div class="product-item">
             <div class="product-content">
             <h3>COLLAGEN PEPTIDE EXFOLIATING GEL</h3>
-            <p>Instant results with visible removal of dead cells...</p>
+            <p>Instant results with visible remove of dead cells.
+Clinically proven to activate the skin repair process.
+Smooths wrinkles, improves tone & elasticity.</p>
             </div>
-            <img src="./assets/img/product-1.png" alt="Product 1">
+            <img class="product-img" src="./assets/img/product-1.png" alt="Product 1">
         </div>
         <div class="product-item">
         <div class="product-content">
             <h3>BELLA COLLAGEN ELIXIR</h3>
-            <p>Beauty from the Inside Out...</p>
+            <p>Helps the body product more collagen.
+Backed by double blind clinical studies.
+Healthier skin, hair, nails, joints & more.</p>
         </div>
-            <img src="./assets/img/product-2.png" alt="Product 2">
+            <img class="product-img" src="./assets/img/product-2.png" alt="Product 2">
         </div>
         <div class="product-item">
         <div class="product-content">
             <h3>HYDRATING LIP PLUMPING OIL</h3>
-            <p>Ultimate softness, hydration & comfort...</p>
+            <p>Ultimate softness, hydration, & comfort.
+A smooth and naturally-plump look.
+Shine of a gloss with the benefits of a balm.</p>
         </div>
-            <img src="./assets/img/product-3.png" alt="Product 3">
+            <img class="product-img" src="./assets/img/product-3.png" alt="Product 3">
         </div>
     </section>
 
