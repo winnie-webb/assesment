@@ -13,6 +13,8 @@
 
     <!-- Header -->
     <header>
+
+
         <nav class="container">
             <div class="logo">LOGO</div>
             <ul class="nav-links">
@@ -21,11 +23,9 @@
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Be an Influencer</a></li>
             </ul>
-            <div class="social-icons">
-                <a href="#">&#xf09a;</a> <!-- Facebook Icon -->
-                <a href="#">&#xf16d;</a> <!-- Instagram Icon -->
-                <a href="#">&#xf0d5;</a> <!-- Twitter Icon -->
-            </div>
+            <a href="#" class="social-icons">
+              <img src="./assets/img/social-icons.png"/>
+            </a>
         </nav>
     </header>
 
