@@ -87,34 +87,102 @@ Shine of a gloss with the benefits of a balm.</p>
     <!-- Influencers Section -->
     <section class="influencers">
         <h2>WHAT'S YOUR INFLUENCE?</h2>
+        <p class="inf-info">Is this you? Could this be you?<br>
+        Are you ready to be an influencer?</p>
         <div class="influencer-cards">
             <div class="card">
-                <img src="./assets/img/model-1-b.png" alt="Influencer 1">
+                <img class="card-img-b" src="./assets/img/model-1-b.png" alt="Influencer 1">
                 <div class="card-content">
-                <p>Grace Perez</p>
+                <img class="card-img-s" src="./assets/img/model-1-s.png"/>
+
+                    <div class="card-name">
+                    <p>Grace Perez</p>
+                    <p class="card-link">@graceperez</p>
+                    </div>
+              
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-b" src="./assets/img/model-2-b.png" alt="Influencer 2">
+                <div class="card-content">
+                    <img class="card-img-s" src="./assets/img/model-2-s.png"/>
+                    <div class="card-name">
+                    <p>Bella Marie</p>
+                    <p class="card-link">@belamarie</p>
+                    </div>
+                   
+                <div>
+               
+                </div>
 
                 </div>
             </div>
             <div class="card">
-                <img src="./assets/img/model-2-b.png" alt="Influencer 2">
+                <img class="card-img-b" src="./assets/img/model-3-b.png" alt="Influencer 3">
                 <div class="card-content">
+                <img class="card-img-s" src="./assets/img/model-3-s.png"/>
 
-                <p>Bella Marie</p>
-
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/model-3-b.png" alt="Influencer 3">
-                <div class="card-content">
-                    <p>Gigi Hadid</p>
+                   <div class="card-name">
+                   <p>Gigi Hadid</p>
+                   <p class="card-link">@gigihadid</p>
+                   </div>
                 </div>
             </div>
         </div>
     </section>
+<!-- More Info -->
+ <section class="more-info">
+<h3>Would you like to <br>learn more?</h3>
+<button class="btn-ben">
+            <img src="./assets/img/ben.png" alt="Image of Ben">    
+            <span>Connect with Ben</span></button>
+ </section>
+ <section class="hero">
+        <div class="hero-text">
+            <h1>COLLAGEN IS PRETTY COOL INIT</h1>
+            <p>GET READY AND LET'S GO</p>
+            <button class="btn-ben">
+            <img src="./assets/img/ben.png" alt="Image of Ben">    
+            <span>Connect with Ben</span></button>
+        </div>
+        
+    </section>
+ <div id="popup-form" class="popup-form">
+    <div class="popup-content">
+        <div class="form-image">
+            <img src="./assets/img/register-cover.png" alt="Form Image">
+        </div>
+        <div class="form-content">
+            <span class="close-btn">&times;</span>
+            <h2>Register to Learn More</h2>
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="phone-number">Best Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label class="checkbox-label">
+                    <input type="checkbox" name="not-a-robot" required>
+                    I'm not a robot
+                </label>
+                
+                <button type="submit" class="register-button">Register Now</button>
+            </form>
+        </div>
+    </div>
+</div>
+
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2022 LOGO</p>
+        <p>Copyright &copy; 2022 LOGO</p>
         <ul>
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Terms & Conditions</a></li>
@@ -122,6 +190,31 @@ Shine of a gloss with the benefits of a balm.</p>
             <li><a href="#">FAQs</a></li>
         </ul>
     </footer>
+<script>
+  const popupForm = document.getElementById('popup-form');
+const closeBtn = document.querySelector('.close-btn');
 
+// Show popup
+function showPopup() {
+    popupForm.style.display = 'flex';
+}
+
+// Hide popup
+function hidePopup() {
+    popupForm.style.display = 'none';
+}
+
+// Close popup when clicking the close button
+closeBtn.addEventListener('click', hidePopup);
+
+// Close popup when clicking outside the form content
+popupForm.addEventListener('click', (e) => {
+    if (e.target === popupForm) {
+        hidePopup();
+    }
+});
+
+
+</script>
 </body>
 </html>
