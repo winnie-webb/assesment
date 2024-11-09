@@ -64,7 +64,7 @@ Smooths wrinkles, improves tone & elasticity.</p>
             </div>
             <img class="product-img" src="./assets/img/product-1.png" alt="Product 1">
         </div>
-        <div class="product-item">
+        <div class="product-item reverse">
         <div class="product-content">
             <h3>BELLA COLLAGEN ELIXIR</h3>
             <p>Helps the body product more collagen.
