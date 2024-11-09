@@ -24,7 +24,7 @@ h1,h2,h3,h4,p{
 }
 header {
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 1rem 2rem;
 }
 
 .logo {
@@ -87,9 +87,9 @@ a {
 
 .hero h1 {
     font-size: 4.5rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.3rem;
-    color: #46689D;
+    color: #416887;
     width: 623px;
 }
 
@@ -422,15 +422,16 @@ footer ul {
     transition: all 0.3s ease;
 }
 
-/* Media Query for Smaller Screens */
 
 .burger {
     display: none;
 }
 
-/* Responsive styling */
 @media (max-width: 1024px) {
-    /* Adjust hero text size */
+  
+    header{
+        padding: 0;
+    }
     .hero{
         padding: 0;
         height: auto;
@@ -600,9 +601,7 @@ width: 100%;
         width: 100%;
     }
 
-    .form-content {
-        padding: 10px;
-    }
+   
 }
 
 /* Hero Section adjustments for small screens */
