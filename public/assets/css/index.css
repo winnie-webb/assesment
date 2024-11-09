@@ -754,7 +754,6 @@ width: 100%;
 }
 
 .recaptcha-checkbox-borderAnimation {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAANICAYAAABZl8i8AAAABmJLR…caGahTBej/IqDS5GVQOowHJTExMTExMTExMTExMTGx4Pb/Ab7rit24eUF+AAAAAElFTkSuQmCC);
 	background-repeat: no-repeat;
 	border: none;
 	height: 28px;
@@ -764,7 +763,6 @@ width: 100%;
 }
 
 .recaptcha-checkbox-spinner {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAscCAYAAAALLkmiAAAABmJLR…OqmOwj9LFhB/6A26e0msmsRAxskuaQZKyUU1yatK+i/X9jsJ4YiehNDAAAAABJRU5ErkJggg==);
 	background-repeat: no-repeat;
 	border: none;
 	height: 36px;
@@ -788,7 +786,6 @@ width: 100%;
 }
 
 .recaptcha-checkbox-checkmark {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAATsCAYAAADsAfBvAAAABmJLR…c8fQAAAIA4Ve/BleITOu7J3HehqXqHPH0AAAAAAAAAALr5H72AWmG4R73sAAAAAElFTkSuQmCC);
 	background-repeat: no-repeat;
 	border: none;
 	height: 30px;

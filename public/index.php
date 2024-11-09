@@ -303,7 +303,8 @@ const burgerClose = document.querySelector(".burger-close")
                         feedback.text(data.message).css("color", "red");
                     }
                 },
-                error: function() {
+                error: function(err) {
+                    console.log(err)
                     feedback.text("There was an error with your registration. Please try again.").css("color", "red");
                 }
             });
