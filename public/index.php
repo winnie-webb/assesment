@@ -276,9 +276,7 @@ const burgerClose = document.querySelector(".burger-close")
                 required: "Please enter your email address",
                 email: "Please enter a valid email address"
             },
-            notARobot: {
-                required: "Please confirm you are not a robot"
-            }
+           
         },
         submitHandler: function(form) {
             // Form submission with AJAX
@@ -293,7 +291,7 @@ const burgerClose = document.querySelector(".burger-close")
                 data: formData,
                 dataType: 'json',
                 success: function(data) {
-                    if (data.status === "success") {
+                    if (data.responseText === "success") {
                         feedback.text(data.message).css("color", "green");
                         setTimeout(() => {
                             $('#popup-form').fadeOut();
