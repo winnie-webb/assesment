@@ -191,29 +191,22 @@ Shine of a gloss with the benefits of a balm.</p>
         </ul>
     </footer>
 <script>
-  const popupForm = document.getElementById('popup-form');
-const closeBtn = document.querySelector('.close-btn');
-
-// Show popup
-function showPopup() {
-    popupForm.style.display = 'flex';
-}
-
-// Hide popup
-function hidePopup() {
-    popupForm.style.display = 'none';
-}
-
-// Close popup when clicking the close button
-closeBtn.addEventListener('click', hidePopup);
-
-// Close popup when clicking outside the form content
-popupForm.addEventListener('click', (e) => {
-    if (e.target === popupForm) {
-        hidePopup();
-    }
+    document.querySelectorAll('.btn-ben').forEach(button => {
+    button.addEventListener('click', function() {
+        document.getElementById('popup-form').style.display = 'flex';
+    });
 });
 
+document.querySelector('.close-btn').addEventListener('click', function() {
+    document.getElementById('popup-form').style.display = 'none';
+});
+
+window.addEventListener('click', function(event) {
+    const popupForm = document.getElementById('popup-form');
+    if (event.target === popupForm) {
+        popupForm.style.display = 'none';
+    }
+});
 
 </script>
 </body>
