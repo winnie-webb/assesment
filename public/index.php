@@ -18,10 +18,10 @@
         <nav>
             <div class="logo">LOGO</div>
             <ul class="nav-links">
-                <li><a class="current-link" href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Be an Influencer</a></li>
+                <li><a class="current-link" href="/">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#more-info">About Us</a></li>
+                <li><a href="#influencers">Be an Influencer</a></li>
             </ul>
             <a href="#" class="social-icons">
               <img src="./assets/img/social-icons.png" alt="Social Icons"/>
@@ -56,7 +56,7 @@
     </section>
 
     <!-- Products Section -->
-    <section class="products">
+    <section class="products" id="products">
         <div class="product-item">
             <div class="product-content">
                 <h3>COLLAGEN PEPTIDE EXFOLIATING GEL</h3>
@@ -81,7 +81,7 @@
     </section>
 
     <!-- Influencers Section -->
-    <section class="influencers">
+    <section class="influencers" id="influencers">
         <h2>WHAT'S YOUR INFLUENCE?</h2>
         <p class="inf-info">Is this you? Could this be you? Are you ready to be an influencer?</p>
         <div class="influencer-cards">
@@ -119,7 +119,7 @@
     </section>
 
     <!-- More Info -->
-    <section class="more-info">
+    <section class="more-info" id="more-info">
         <h3>Would you like to learn more?</h3>
         <button class="btn-ben">
             <img src="./assets/img/ben.png" alt="Image of Ben">    

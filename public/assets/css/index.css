@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
 
+}
 body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     color: #416887;
@@ -16,7 +19,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
+h1,h2,h3,h4,p{
+    letter-spacing: 3px;
+}
 header {
     text-transform: uppercase;
     padding: 20px 0;
@@ -117,8 +122,12 @@ a {
 }
 
 .congrats {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     padding: 3rem;
+    height: 90vh;
 }
 
 .congrats h2 {
@@ -129,7 +138,8 @@ a {
 .congrats p {
     width: 50%;
     margin: 0 auto;
-    line-height: 1.6rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
     color: #99A1A5;
 }
 
@@ -193,6 +203,8 @@ a {
     color: #99A1A5;
     margin: 3rem 0;
     text-align: center;
+    letter-spacing: normal;
+    font-size: 1.2rem;
 }
 
 .influencer-cards {
@@ -453,7 +465,9 @@ footer ul {
 }
 
 @media (max-width: 1024px) {
-    
+    .congrats{
+        height: auto;
+    }
     .congrats p{
 width: 100%;
     }
