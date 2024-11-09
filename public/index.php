@@ -10,8 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
-</head>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script></head>
 <body>
 
     <!-- Header -->
@@ -247,7 +246,6 @@ const burgerClose = document.querySelector(".burger-close")
             },
             phoneNumber: {
                 required: true,
-                digits: true,
                 minlength: 10,
                 maxlength: 15
             },
